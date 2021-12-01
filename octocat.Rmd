@@ -12,9 +12,7 @@ library(tidyverse)
 ggplot(iris) +
   aes(x = Petal.Width) +
   geom_histogram(color = "firebrick4",
-                 fill = "darkgreen") +
-  theme_classic()
-
+                 fill = "darkgreen") 
 
 ```
 
